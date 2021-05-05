@@ -1,0 +1,53 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child {
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2) {
+    color: orange;
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#mi-enlance {
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+#mi-enlance:link {
+    color: red;
+}
+
+#mi-enlance:visited {
+    color: orangered;
+}
+
+#mi-enlance:hover {
+    color: blue;
+}
+
+#mi-enlance:active {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus {
+    border: 4px dashed red;
+}
